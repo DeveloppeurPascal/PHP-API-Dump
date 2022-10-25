@@ -29,7 +29,7 @@
 	
 	// Specify if you want an answer with the result as JSON or HTML
 	// (if JSON is true, it will be sent as JSON, if not and HTML is true, it will be sent as HTML)
-	define('DumpAsJSONAnswer', false); // "true" to replay with a JSON serialized object, "false" if not
+	define('DumpAsJSONAnswer', true); // "true" to replay with a JSON serialized object, "false" if not
 	define('DumpAsHTMLAnswer', true); // "true" to replay with a HTML page, "false" if not
 
 	$result = new stdClass();
