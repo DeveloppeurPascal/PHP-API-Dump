@@ -77,6 +77,7 @@
 		http_response_code(200);	
 		print(json_encode($result));
 	} else if (DumpAsHTMLAnswer) {
+		header("Access-Control-Allow-Origin: *"); // CORS : AJAX JS calls accepted from all domains
 		header('Content-Type: text/html; charset=utf8');
 		http_response_code(200);	
 		print(nl2br(var_export($result, true)));
