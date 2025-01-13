@@ -1,4 +1,6 @@
-# PHP-API-Dump
+# PHP API dump
+
+[Cette page en français.](LISEZMOI.md)
 
 Simple PHP program to check what you send from a JS script (or a form) to a server and how it receives it if it does.
 
@@ -8,7 +10,7 @@ Put the PHP program in a server (local or distant) and check it by  calling its 
 
 Use it to check your JS code and see if what you call with Ajax is well formatted for PHP use on the server side.
 
-## How to dump your Ajax call (or HTML forms sent to a server)
+## How to dump your Ajax call (or HTML forms sent to a server) ?
 
 The PHP program is in ./src folder and named "ajaxcalldump.php".
 
@@ -18,10 +20,65 @@ Personalize if you want a dump file and where you want it.
 
 Finally choose if you want the program send something as an anwser : a JSON object with each record, a HTML page or nothing.
 
-## Default configuration
+### Default configuration
 
-By default the program will export as HTML what it receive and create a dump.txt file in its folder.
+By default the program will export as HTML what it receives and creates a dump.txt file in its folder.
 
-## Security
+### Security
 
 Use this program only on development server. Never use it in production or remove it after your tests !
+
+## Talks and conferences
+
+### Twitch
+
+Follow my development streams of software, video games, mobile applications and websites on [my Twitch channel](https://www.twitch.tv/patrickpremartin) or as replays on [Serial Streameur](https://serialstreameur.fr) mostly in French.
+
+## Source code installation
+
+To download this code repository, we recommend using "git", but you can also download a ZIP file directly from [its GitHub repository](https://github.com/DeveloppeurPascal/XXXXXXXXXX).
+
+## Compatibility
+
+When I code, I work locally with XAMPP on Windows. My projects work for this stack.
+
+There's no guarantee of compatibility with other software or versions, even though I try to keep my code clean and avoid using too many specific things.
+
+If you detect any anomalies on earlier versions, please don't hesitate to [report them](https://github.com/DeveloppeurPascal/XXXXXXXXXX/issues) so that I can test and try to correct or provide a workaround.
+
+## License to use this code repository and its contents
+
+This source code is distributed under the [AGPL 3.0 or later license](https://choosealicense.com/licenses/agpl-3.0/).
+
+You are generally free to use the contents of this code repository anywhere, provided that:
+* you mention it in your projects
+* distribute the modifications made to the files supplied in this project under the AGPL license (leaving the original copyright notices (author, link to this repository, license) which must be supplemented by your own)
+* to distribute the source code of your creations under the AGPL license.
+
+If this license doesn't suit your needs, you can purchase the right to use this project under the [Apache License 2.0](https://choosealicense.com/licenses/apache-2.0/) or a dedicated commercial license ([contact the author](https://trucs-de-developpeur-web.fr/nous-contacter.php) to explain your needs).
+
+These source codes are provided as is, without warranty of any kind.
+
+Certain elements included in this repository may be subject to third-party usage rights (images, sounds, etc.). They are not reusable in your projects unless otherwise stated.
+
+## How to ask a new feature, report a bug or a security issue ?
+
+If you want an answer from the project owner the best way to ask for a new feature or report a bug is to go to [the GitHub repository](https://github.com/DeveloppeurPascal/XXXXXXXXXX) and [open a new issue](https://github.com/DeveloppeurPascal/XXXXXXXXXX/issues).
+
+If you found a security issue please don't report it publicly before a patch is available. Explain the case by [sending a private message to the author](https://trucs-de-developpeur-web.fr/nous-contacter.php).
+
+You also can fork the repository and contribute by submitting pull requests if you want to help. Please read the [CONTRIBUTING.md](CONTRIBUTING.md) file.
+
+## Support the project and its author
+
+If you think this project is useful and want to support it, please make a donation to [its author](https://github.com/DeveloppeurPascal). It will help to maintain the code and binaries.
+
+You can use one of those services :
+
+* [GitHub Sponsors](https://github.com/sponsors/DeveloppeurPascal)
+* Ko-fi [in French](https://ko-fi.com/patrick_premartin_fr) or [in English](https://ko-fi.com/patrick_premartin_en)
+* [Patreon](https://www.patreon.com/patrickpremartin)
+* [Liberapay](https://liberapay.com/PatrickPremartin)
+* [Paypal](https://www.paypal.com/paypalme/patrickpremartin)
+
+or if you speack french you can [subscribe to Zone Abo](https://zone-abo.fr/nos-abonnements.php) on a monthly or yearly basis and get a lot of resources as videos and articles.
